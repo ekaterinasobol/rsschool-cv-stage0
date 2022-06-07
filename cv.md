@@ -35,7 +35,7 @@ function minus(a, b){
   return a - b;
 }
 
-function devide(a, b){
+function divide(a, b){
   if(b!=0) {
   return a/b;
     }
@@ -46,3 +46,18 @@ console.log("Summ of 10 and 15 is:");
 console.log(add(10,15));
 
 ```
+## Experince:
+
+No experience yet
+
+## Education:
+
+* University: Belarusian National Technical University
+
+## Languages:
+
+* Russian - native speaker
+* English - B2
+* Chinese - HSK2
+* Italian - A1
+* Turkish - A1
