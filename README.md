@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ekaterinasobol.github.io/rsschool-cv/cv
