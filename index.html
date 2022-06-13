@@ -1,14 +1,127 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>cv</title>
-            <link rel="stylesheet" href="style.css">
-            <link rel="icon" href="assets/favicon.ico">
-        </head>
-        <body>
-            
-        </body>
-        </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="two-parts">
+            <div class="left-part">
+               <header>
+                   <img src="assets/img/DSC_0415.jpg" alt="Photo" width="290" height="425">
+                   <h1>Katsiaryna Rekuts</h1>
+                   <h2>Junior Front-end Developer</h2>
+               </header>
+               <main>
+                   <section class="contacts">
+                       <h3 id="contacts">Contacts:</h3>
+                       <ul>
+                           <li>Location: Minsk, Belarus
+                           </li>
+                           <li>Tel. +375 29 856-30-76
+                            </li>
+                           <li>E-mail: 
+                               <a href="mailto:ekaterinasobol90@gmail.com">ekaterinasobol90@gmail.com</a>
+                           </li>
+                           <li>GitHub
+                            <a href="https://github.com/ekaterinasobol">ekaterinasobol</a>
+                           </li>
+                           <li>Discord 
+                               <a href="ekaterinasobol#9112">ekaterinasobol</a>
+                           </li>
+                       </ul>
+                   </section>
+               </main> 
+            </div>
+            <div class="right-part">
+                <ul class="menu">
+                    <li><a href="#about-myself">About Myself</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-example">Code Example</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                  </ul>
+                <section class="about-myself">
+                          <h3 id="#about-myself">About Myself</h3>
+                          <p>I have been working as a specialist in marketing for 10 years but now my goal is to get a new profession.</p>
+                          <p>I am willing to gain new knowledge in programming and to improve my personal skills.</p>
+                          <p>I am very hardworking, reliable, diligent and responsible. I am a good team player. I will do my best to become a valuable specialist in the field of front-end development.</p>
+                </section>
+                <section class="education">
+                        <h3 id="education">Education:</h3>
+                        <ul>
+                            <li>Belarusian National Technical University</li>
+                        </ul>
+                </section>
+                <section class="skills">
+                    <h3 id="skills">Skills:</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JS</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+                <section class="code-example">
+                    <h3 id="code-example">Code Example:</h3>
+                    <pre>
+                        <code>
+                            function multiply(a, b){
+                                return a * b;
+                              }
+                              function add(a, b){
+                                return a + b;
+                              }
+                              
+                              function minus(a, b){
+                                return a - b;
+                              }
+                              
+                              function divide(a, b){
+                                if(b!=0) {
+                                return a/b;
+                                  }
+                                return 0;
+                              }
+                              
+                              console.log("Summ of 10 and 15 is:");
+                              console.log(add(10,15));
+                        </code>
+                    </pre>
+                </section>
+                <section class="languages">
+                    <h3 id="languages">Languages</h3>
+                    <ul>
+                        <li>Russian - native speaker</li>
+                        <li>English - B2</li>
+                        <li>Chinese - HSK2</li>
+                        <li>Italian - A1</li>
+                        <li>Turkish - A1</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+   <footer>
+       <a class="my-github-page" href="https://github.com/ekaterinasobol">
+           <img class="icon-github" src="./assets/svg/github-mark.ico" alt="GitHub Icon" width="26" height="26">
+           <p>Visit my GitHub</p>
+       </a>
+       <p>© 2022</p>
+       <a href="https://rs.school/js/">
+          <img src="./assets/svg/rs_school_js.svg" alt="RssSchool Icon" width="73" height="26">
+       </a>
+   </footer> 
+</body>
+</html>
