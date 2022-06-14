@@ -78,6 +78,9 @@ a:hover {
 .menu li {
     display: inline;
 }
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
 
 .about-myself {
  margin: 20px;
