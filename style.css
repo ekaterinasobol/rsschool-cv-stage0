@@ -47,7 +47,7 @@ main {
     padding: 0px;
 
 }
-main .contacts h3 {
+main .contacts h2 {
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
@@ -88,7 +88,7 @@ li a:hover:not(.active) {
  margin: 20px;
  border: 5px solid rgb(136, 169, 169);
 } 
-.about-myself h3 {
+.about-myself h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 40px;
@@ -101,7 +101,7 @@ li a:hover:not(.active) {
     margin: 20px;
     border: 5px solid rgb(136, 169, 169);   
 }
-.education h3 {
+.education h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 40px;
@@ -111,7 +111,7 @@ li a:hover:not(.active) {
     margin: 20px;
     border: 5px solid rgb(136, 169, 169);
 }
-.skills h3 {
+.skills h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 40px;
@@ -125,17 +125,30 @@ pre {
     font-size: 0.6rem;
     background-color: #cba961;
 }
-.code-example h3 {
+.code-example h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 40px;
     font-size: 30px; 
 }
+.projects {
+    margin: 20px;
+    border: 5px solid rgb(136, 169, 169); 
+}
+.projects h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.projects a {
+     
+}
 .languages {
     margin: 20px;
     border: 5px solid rgb(136, 169, 169);
 }
-.languages h3 {
+.languages h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 40px;
